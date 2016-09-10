@@ -1,0 +1,50 @@
+{"products":
+	{"eatable":
+	[{
+	"name":"Sugar",
+	"parameters":[
+		{"name":"Shop name","value":"Prisma"},
+		{"name":"Weight","value":"1 kg"},
+		{"name":"Price","value":"50 p"}
+		]
+	},
+	{
+	"name":"Milk",
+	"parameters":[
+		{"name":"Shop name","value":"Lenta"},
+		{"name":"Volume","value":"1 l"},
+		{"name":"Price","value":"49,90 p"}
+		]
+	},
+	{
+	"name":"Bread",
+	"parameters":[
+		{"name":"Shop name","value":"Prisma"},
+		{"name":"Number","value":"1 "},
+		{"name":"Price","value":"15 p"},
+		{"name":"Name","value":"Darnitckii"}
+		]
+	}
+	]
+	"alcohol":
+	[
+	{
+	"name":"Vodka",
+	"parameters":[
+		{"name":"Shop name","value":"Lenta"},
+		{"name":"Volume","value":"1 l"},
+		{"name":"Price","value":"149,90 p"}
+		]
+	},
+	{
+	"name":"Beer",
+	"parameters":[
+		{"name":"Shop name","value":"Lenta"},
+		{"name":"Volume","value":"1 l"},
+		{"name":"Price","value":"49,90 p"}
+		]
+	}
+	]
+	}
+	
+}

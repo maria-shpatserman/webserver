@@ -1,0 +1,76 @@
+INFO:root:url = http://localhost:4000/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): localhost
+INFO:root:url = http://localhost:4000/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): localhost
+INFO:root:url = http://localhost:4000/
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): localhost
+INFO:root:url = http://localhost:4000/
+INFO:root:{"jsonrpc": "2.0", "params": [], "method": "get_alcohol_products", "id": 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): localhost
+INFO:root:url = http://localhost:4000/
+INFO:root:{"jsonrpc": "2.0", "params": [], "method": "get_alcohol_products", "id": 0}
+INFO:root:url = http://localhost:4000/
+INFO:root:{"jsonrpc": "2.0", "params": [], "method": "get_alcohol_products", "id": 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): localhost
+INFO:root:{u'jsonrpc': u'2.0', u'id': 0, u'error': {u'message': u'Invalid params', u'code': -32602, u'data': {u'message': u'get_alcohol_products() takes exactly 1 argument (0 given)', u'args': [u'get_alcohol_products() takes exactly 1 argument (0 given)'], u'type': u'TypeError'}}}
+INFO:root:url = http://localhost:4000/
+INFO:root:{"jsonrpc": "2.0", "params": [], "method": "get_alcohol_products", "id": 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): localhost
+INFO:root:{u'jsonrpc': u'2.0', u'id': 0, u'error': {u'message': u'Invalid params', u'code': -32602, u'data': {u'message': u'get_alcohol_products() takes exactly 1 argument (0 given)', u'args': [u'get_alcohol_products() takes exactly 1 argument (0 given)'], u'type': u'TypeError'}}}
+INFO:root:url = http://localhost:4000/
+INFO:root:{"jsonrpc": "2.0", "params": [], "method": "get_alcohol_products", "id": 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): localhost
+INFO:root:{u'jsonrpc': u'2.0', u'id': 0, u'error': {u'message': u'Invalid params', u'code': -32602, u'data': {u'message': u'get_alcohol_products() takes exactly 1 argument (0 given)', u'args': [u'get_alcohol_products() takes exactly 1 argument (0 given)'], u'type': u'TypeError'}}}
+INFO:root:url = http://localhost:4000/
+INFO:root:{"jsonrpc": "2.0", "params": ["echoyou"], "method": "get_alcohol_products", "id": 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): localhost
+INFO:root:{u'jsonrpc': u'2.0', u'id': 0, u'error': {u'message': u'Server error', u'code': -32000, u'data': {u'message': u"'unicode' object has no attribute 'json_object'", u'args': [u"'unicode' object has no attribute 'json_object'"], u'type': u'AttributeError'}}}
+INFO:root:url = http://localhost:4000/
+INFO:root:{"jsonrpc": "2.0", "params": ["echoyou"], "method": "get_alcohol_products", "id": 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): localhost
+INFO:root:url = http://localhost:4000/
+INFO:root:{"jsonrpc": "2.0", "params": ["echoyou"], "method": "get_alcohol_products", "id": 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): localhost
+INFO:root:{u'jsonrpc': u'2.0', u'result': u'echoyou', u'id': 0}
+INFO:root:url = http://localhost:4000/
+INFO:root:{"jsonrpc": "2.0", "params": ["echoyou"], "method": "get_alcohol_products", "id": 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): localhost
+INFO:root:{u'jsonrpc': u'2.0', u'id': 0, u'error': {u'message': u'Invalid params', u'code': -32602, u'data': {u'message': u'get_alcohol_products() takes exactly 1 argument (2 given)', u'args': [u'get_alcohol_products() takes exactly 1 argument (2 given)'], u'type': u'TypeError'}}}
+INFO:root:url = http://localhost:4000/
+INFO:root:{"jsonrpc": "2.0", "params": [], "method": "get_alcohol_products", "id": 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): localhost
+INFO:root:{u'jsonrpc': u'2.0', u'result': [{u'name': u'Vodka', u'parameters': [{u'name': u'Shop name', u'value': u'Lenta'}, {u'name': u'Volume', u'value': u'1 l'}, {u'name': u'Price', u'value': u'149,90 p'}]}, {u'name': u'Beer', u'parameters': [{u'name': u'Shop name', u'value': u'Lenta'}, {u'name': u'Volume', u'value': u'1 l'}, {u'name': u'Price', u'value': u'49,90 p'}]}], u'id': 0}
+INFO:root:url = http://localhost:4000/
+INFO:root:{"jsonrpc": "2.0", "params": [], "method": "get_alcohol_products", "id": 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): localhost
+INFO:root:{u'jsonrpc': u'2.0', u'result': [{u'name': u'Vodka', u'parameters': [{u'name': u'Shop name', u'value': u'Lenta'}, {u'name': u'Volume', u'value': u'1 l'}, {u'name': u'Price', u'value': u'149,90 p'}]}, {u'name': u'Beer', u'parameters': [{u'name': u'Shop name', u'value': u'Lenta'}, {u'name': u'Volume', u'value': u'1 l'}, {u'name': u'Price', u'value': u'49,90 p'}]}], u'id': 0}
+INFO:root:url = http://localhost:4000/
+INFO:root:{"jsonrpc": "2.0", "params": [], "method": "get_alcohol_products", "id": 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): localhost
+INFO:root:{u'jsonrpc': u'2.0', u'result': [{u'name': u'Vodka', u'parameters': [{u'name': u'Shop name', u'value': u'Lenta'}, {u'name': u'Volume', u'value': u'1 l'}, {u'name': u'Price', u'value': u'149,90 p'}]}, {u'name': u'Beer', u'parameters': [{u'name': u'Shop name', u'value': u'Lenta'}, {u'name': u'Volume', u'value': u'1 l'}, {u'name': u'Price', u'value': u'49,90 p'}]}], u'id': 0}
+INFO:root:{"jsonrpc": "2.0", "params": [], "method": "get_eatable_products", "id": 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): localhost
+INFO:root:{u'jsonrpc': u'2.0', u'result': [{u'name': u'Sugar', u'parameters': [{u'name': u'Shop name', u'value': u'Prisma'}, {u'name': u'Weight', u'value': u'1 kg'}, {u'name': u'Price', u'value': u'50 p'}]}, {u'name': u'Milk', u'parameters': [{u'name': u'Shop name', u'value': u'Lenta'}, {u'name': u'Volume', u'value': u'1 l'}, {u'name': u'Price', u'value': u'49,90 p'}]}, {u'name': u'Bread', u'parameters': [{u'name': u'Shop name', u'value': u'Prisma'}, {u'name': u'Number', u'value': u'1 '}, {u'name': u'Price', u'value': u'15 p'}, {u'name': u'Name', u'value': u'Darnitckii'}]}], u'id': 0}
+INFO:root:{"jsonrpc": "2.0", "params": [], "method": "get_products", "id": 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): localhost
+INFO:root:{u'jsonrpc': u'2.0', u'result': {u'products': {u'eatable': [{u'name': u'Sugar', u'parameters': [{u'name': u'Shop name', u'value': u'Prisma'}, {u'name': u'Weight', u'value': u'1 kg'}, {u'name': u'Price', u'value': u'50 p'}]}, {u'name': u'Milk', u'parameters': [{u'name': u'Shop name', u'value': u'Lenta'}, {u'name': u'Volume', u'value': u'1 l'}, {u'name': u'Price', u'value': u'49,90 p'}]}, {u'name': u'Bread', u'parameters': [{u'name': u'Shop name', u'value': u'Prisma'}, {u'name': u'Number', u'value': u'1 '}, {u'name': u'Price', u'value': u'15 p'}, {u'name': u'Name', u'value': u'Darnitckii'}]}], u'alcohol': [{u'name': u'Vodka', u'parameters': [{u'name': u'Shop name', u'value': u'Lenta'}, {u'name': u'Volume', u'value': u'1 l'}, {u'name': u'Price', u'value': u'149,90 p'}]}, {u'name': u'Beer', u'parameters': [{u'name': u'Shop name', u'value': u'Lenta'}, {u'name': u'Volume', u'value': u'1 l'}, {u'name': u'Price', u'value': u'49,90 p'}]}]}}, u'id': 0}
+INFO:root:url = http://localhost:4000/
+INFO:root:{"jsonrpc": "2.0", "params": [], "method": "get_alcohol_products", "id": 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): localhost
+INFO:root:{u'jsonrpc': u'2.0', u'result': [{u'name': u'Vodka', u'parameters': [{u'name': u'Shop name', u'value': u'Lenta'}, {u'name': u'Volume', u'value': u'1 l'}, {u'name': u'Price', u'value': u'149,90 p'}]}, {u'name': u'Beer', u'parameters': [{u'name': u'Shop name', u'value': u'Lenta'}, {u'name': u'Volume', u'value': u'1 l'}, {u'name': u'Price', u'value': u'49,90 p'}]}], u'id': 0}
+INFO:root:{"jsonrpc": "2.0", "params": [], "method": "get_eatable_products", "id": 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): localhost
+INFO:root:{u'jsonrpc': u'2.0', u'result': [{u'name': u'Sugar', u'parameters': [{u'name': u'Shop name', u'value': u'Prisma'}, {u'name': u'Weight', u'value': u'1 kg'}, {u'name': u'Price', u'value': u'50 p'}]}, {u'name': u'Milk', u'parameters': [{u'name': u'Shop name', u'value': u'Lenta'}, {u'name': u'Volume', u'value': u'1 l'}, {u'name': u'Price', u'value': u'49,90 p'}]}, {u'name': u'Bread', u'parameters': [{u'name': u'Shop name', u'value': u'Prisma'}, {u'name': u'Number', u'value': u'1 '}, {u'name': u'Price', u'value': u'15 p'}, {u'name': u'Name', u'value': u'Darnitckii'}]}], u'id': 0}
+INFO:root:{"jsonrpc": "2.0", "params": [], "method": "get_products", "id": 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): localhost
+INFO:root:{u'jsonrpc': u'2.0', u'result': {u'products': {u'eatable': [{u'name': u'Sugar', u'parameters': [{u'name': u'Shop name', u'value': u'Prisma'}, {u'name': u'Weight', u'value': u'1 kg'}, {u'name': u'Price', u'value': u'50 p'}]}, {u'name': u'Milk', u'parameters': [{u'name': u'Shop name', u'value': u'Lenta'}, {u'name': u'Volume', u'value': u'1 l'}, {u'name': u'Price', u'value': u'49,90 p'}]}, {u'name': u'Bread', u'parameters': [{u'name': u'Shop name', u'value': u'Prisma'}, {u'name': u'Number', u'value': u'1 '}, {u'name': u'Price', u'value': u'15 p'}, {u'name': u'Name', u'value': u'Darnitckii'}]}], u'alcohol': [{u'name': u'Vodka', u'parameters': [{u'name': u'Shop name', u'value': u'Lenta'}, {u'name': u'Volume', u'value': u'1 l'}, {u'name': u'Price', u'value': u'149,90 p'}]}, {u'name': u'Beer', u'parameters': [{u'name': u'Shop name', u'value': u'Lenta'}, {u'name': u'Volume', u'value': u'1 l'}, {u'name': u'Price', u'value': u'49,90 p'}]}]}}, u'id': 0}
+INFO:root:url = http://localhost:4000/
+INFO:root:{"jsonrpc": "2.0", "params": [], "method": "get_alcohol_products", "id": 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): localhost
+INFO:root:{u'jsonrpc': u'2.0', u'result': [{u'name': u'Vodka', u'parameters': [{u'name': u'Shop name', u'value': u'Lenta'}, {u'name': u'Volume', u'value': u'1 l'}, {u'name': u'Price', u'value': u'149,90 p'}]}, {u'name': u'Beer', u'parameters': [{u'name': u'Shop name', u'value': u'Lenta'}, {u'name': u'Volume', u'value': u'1 l'}, {u'name': u'Price', u'value': u'49,90 p'}]}], u'id': 0}
+INFO:root:{"jsonrpc": "2.0", "params": [], "method": "get_eatable_products", "id": 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): localhost
+INFO:root:{u'jsonrpc': u'2.0', u'result': [{u'name': u'Sugar', u'parameters': [{u'name': u'Shop name', u'value': u'Prisma'}, {u'name': u'Weight', u'value': u'1 kg'}, {u'name': u'Price', u'value': u'50 p'}]}, {u'name': u'Milk', u'parameters': [{u'name': u'Shop name', u'value': u'Lenta'}, {u'name': u'Volume', u'value': u'1 l'}, {u'name': u'Price', u'value': u'49,90 p'}]}, {u'name': u'Bread', u'parameters': [{u'name': u'Shop name', u'value': u'Prisma'}, {u'name': u'Number', u'value': u'1 '}, {u'name': u'Price', u'value': u'15 p'}, {u'name': u'Name', u'value': u'Darnitckii'}]}], u'id': 0}
+INFO:root:{"jsonrpc": "2.0", "params": [], "method": "get_products", "id": 0}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTP connection (1): localhost
+INFO:root:{u'jsonrpc': u'2.0', u'result': {u'products': {u'eatable': [{u'name': u'Sugar', u'parameters': [{u'name': u'Shop name', u'value': u'Prisma'}, {u'name': u'Weight', u'value': u'1 kg'}, {u'name': u'Price', u'value': u'50 p'}]}, {u'name': u'Milk', u'parameters': [{u'name': u'Shop name', u'value': u'Lenta'}, {u'name': u'Volume', u'value': u'1 l'}, {u'name': u'Price', u'value': u'49,90 p'}]}, {u'name': u'Bread', u'parameters': [{u'name': u'Shop name', u'value': u'Prisma'}, {u'name': u'Number', u'value': u'1 '}, {u'name': u'Price', u'value': u'15 p'}, {u'name': u'Name', u'value': u'Darnitckii'}]}], u'alcohol': [{u'name': u'Vodka', u'parameters': [{u'name': u'Shop name', u'value': u'Lenta'}, {u'name': u'Volume', u'value': u'1 l'}, {u'name': u'Price', u'value': u'149,90 p'}]}, {u'name': u'Beer', u'parameters': [{u'name': u'Shop name', u'value': u'Lenta'}, {u'name': u'Volume', u'value': u'1 l'}, {u'name': u'Price', u'value': u'49,90 p'}]}]}}, u'id': 0}
